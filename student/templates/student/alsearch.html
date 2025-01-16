@@ -162,11 +162,11 @@ if(SpeechRecognition) {
         searchFormInput.value = transcript;
       }
     }
-    // searchFormInput.value = transcript;
-    // searchFormInput.focus();
-    // setTimeout(() => {
-    //   searchForm.submit();
-    // }, 500);
+     searchFormInput.value = transcript;
+    searchFormInput.focus();
+    setTimeout(() => {
+       searchForm.submit();
+    }, 500);
   }
   
   info.textContent = 'Voice Commands: "stop recording", "reset input", "go"';
